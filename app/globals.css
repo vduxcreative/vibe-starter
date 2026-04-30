@@ -3,14 +3,19 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0a0a0a;
-  --fg: #ededed;
-  --muted: #9ca3af;
-  --accent: #8b5cf6;
+  --bg: #14131c;
+  --bg-soft: #1c1b27;
+  --fg: #f3f1ff;
+  --muted: #b6b3c7;
+  --accent: #a78bfa;
 }
 
 html, body {
-  background: var(--bg);
+  background:
+    radial-gradient(1200px 600px at 80% -10%, rgba(167, 139, 250, 0.18), transparent 60%),
+    radial-gradient(900px 500px at -10% 10%, rgba(99, 102, 241, 0.12), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
   color: var(--fg);
   -webkit-font-smoothing: antialiased;
 }

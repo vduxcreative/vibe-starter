@@ -1,14 +1,13 @@
 import Link from "next/link";
 
 const links = [
-  { href: "/#prepare", label: "준비하기" },
-  { href: "/#start", label: "시작하기" },
-  { href: "/#deploy", label: "배포하기" },
+  { href: "/day1", label: "Day 1" },
+  { href: "/day2", label: "Day 2" },
 ];
 
 export default function Nav() {
   return (
-    <header className="sticky top-0 z-10 backdrop-blur bg-black/40 border-b border-white/5">
+    <header className="sticky top-0 z-10 backdrop-blur bg-white/5 border-b border-white/10">
       <nav className="mx-auto max-w-5xl px-6 h-14 flex items-center justify-between">
         <Link href="/" className="font-semibold tracking-tight">
           ◆ vibe starter

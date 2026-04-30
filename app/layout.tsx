@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Vibe Starter — Day 1",
-  description: "디자이너를 위한 바이브 코딩 입문 가이드",
+  title: "Vibe Coding Study",
+  description: "디자이너를 위한 바이브 코딩 단계별 가이드",
 };
 
 export default function RootLayout({
